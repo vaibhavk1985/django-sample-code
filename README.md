@@ -1,8 +1,8 @@
 # django-sample
 
-================================================================
-django conversation - One User can send message to another user.
-================================================================
+=========================================
+django API - Rest API for registration, login and add image
+=========================================
 
 
 django-sample-code : In this application user can sign-in and sign-up with API. We have sent email to user for account activation. Also user can add and fech multiple image using API call.
