@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Add Images</h1>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.original_img.errors }}
+  <p><label for="id_{{form.original_img.name}}">Original img:</label>
+   <input type="file" name="{{form.original_img.name}}" required="" id="id_{{form.original_img.name}}" multiple>
+  </p>
+  <button type="submit">Save</button>
+</form>
+{% endblock %}
